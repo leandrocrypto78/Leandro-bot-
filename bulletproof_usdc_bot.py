@@ -1601,7 +1601,7 @@ class WorkingUSDCVerifier:
     
     async def _verify_transaction(self, session: aiohttp.ClientSession, 
                                 endpoint: str, signature: str, sender_wallet: str, expected_amount: float = None) -> Dict[str, Any]:
-        """SECURE: Verify exact $80 USDC payment from sender to our wallet within 2 hours"""
+        """SECURE: Verify exact USDC payment from sender to our wallet within 2 hours"""
         try:
             payload = {
                 "jsonrpc": "2.0",
@@ -1995,44 +1995,44 @@ async def vip_access_handler(callback: CallbackQuery):
             [InlineKeyboardButton(text=f"🏠 {main_menu}", callback_data="main_menu")]
         ])
     else:
-        vip_text = f"""💎 **{multilingual.get_text(user_id, 'vip_membership_choose') or 'vip_membership_choose text'}**
+        vip_text = f"""💎 **{multilingual.get_text(user_id, 'vip_membership_choose') or 'VIP MEMBERSHIP - CHOOSE YOUR PLAN'}**
 
-**🎯 {multilingual.get_text(user_id, 'available_packages') or 'available_packages text'}**
+**🎯 {multilingual.get_text(user_id, 'available_packages') or 'Available Packages:'}**
 
-🥉 **{multilingual.get_text(user_id, 'weekly_vip_plan') or 'weekly_vip_plan text'}**
-• {multilingual.get_text(user_id, 'basic_trading_signals') or 'basic_trading_signals text'}
-• {multilingual.get_text(user_id, 'market_updates') or 'market_updates text'}
-• {multilingual.get_text(user_id, 'weekly_group_access') or 'weekly_group_access text'}
+🥉 **{multilingual.get_text(user_id, 'weekly_vip_plan') or 'Weekly VIP - $25 USDC (7 days)'}**
+• {multilingual.get_text(user_id, 'basic_trading_signals') or 'Basic trading signals'}
+• {multilingual.get_text(user_id, 'market_updates') or 'Market updates'}
+• {multilingual.get_text(user_id, 'weekly_group_access') or 'Weekly group access'}
 
-🥈 **{multilingual.get_text(user_id, 'monthly_vip_plan') or 'monthly_vip_plan text'}**
+🥈 **{multilingual.get_text(user_id, 'monthly_vip_plan') or 'Monthly VIP - $80 USDC (30 days)'}**
 • {multilingual.get_text(user_id, 'premium_signals_accuracy') or 'Premium signals with high accuracy'}
 • {multilingual.get_text(user_id, 'technical_analysis') or 'Technical analysis'}
 • {multilingual.get_text(user_id, 'priority_support') or 'Priority support'}
-• {multilingual.get_text(user_id, 'monthly_group_access') or 'monthly_group_access text'}
+• {multilingual.get_text(user_id, 'monthly_group_access') or 'Monthly group access'}
 
-🥇 **{multilingual.get_text(user_id, 'quarterly_vip_plan') or 'quarterly_vip_plan text'}**
-• {multilingual.get_text(user_id, 'elite_signals_analysis') or 'elite_signals_analysis text'}
-• {multilingual.get_text(user_id, 'personal_trading_guidance') or 'personal_trading_guidance text'}
-• {multilingual.get_text(user_id, 'priority_support_24_7') or 'priority_support_24_7 text'}
-• {multilingual.get_text(user_id, 'exclusive_quarterly_group') or 'exclusive_quarterly_group text'}
+🥇 **{multilingual.get_text(user_id, 'quarterly_vip_plan') or 'Quarterly VIP - $200 USDC (90 days)'}**
+• {multilingual.get_text(user_id, 'elite_signals_analysis') or 'Elite signals & analysis'}
+• {multilingual.get_text(user_id, 'personal_trading_guidance') or 'Personal trading guidance'}
+• {multilingual.get_text(user_id, 'priority_support_24_7') or '24/7 priority support'}
+• {multilingual.get_text(user_id, 'exclusive_quarterly_group') or 'Exclusive quarterly group'}
 
-**🔒 {multilingual.get_text(user_id, 'all_plans_include') or 'all_plans_include text'}**
-• {multilingual.get_text(user_id, 'instant_blockchain_verification') or 'instant_blockchain_verification text'}
-• {multilingual.get_text(user_id, 'secure_usdc_payment') or 'secure_usdc_payment text'}
-• {multilingual.get_text(user_id, 'automatic_group_access') or 'automatic_group_access text'}
-• {multilingual.get_text(user_id, 'mobile_friendly_interface') or 'mobile_friendly_interface text'}"""
+**🔒 {multilingual.get_text(user_id, 'all_plans_include') or 'All Plans Include:'}**
+• {multilingual.get_text(user_id, 'instant_blockchain_verification') or 'Instant blockchain verification'}
+• {multilingual.get_text(user_id, 'secure_usdc_payment') or 'Secure USDC payment system'}
+• {multilingual.get_text(user_id, 'automatic_group_access') or 'Automatic VIP group access'}
+• {multilingual.get_text(user_id, 'mobile_friendly_interface') or 'Mobile-friendly interface'}"""
         
-        # Get translated button texts
-        weekly_btn = multilingual.get_text(user_id, 'weekly_btn') or "Weekly $25"
-        monthly_btn = multilingual.get_text(user_id, 'monthly_btn') or "Monthly $80"
-        quarterly_btn = multilingual.get_text(user_id, 'quarterly_btn') or "Quarterly $200"
-        main_menu_btn = multilingual.get_text(user_id, 'main_menu') or "Main Menu"
+        # Get translated button texts with proper fallbacks
+        weekly_btn = multilingual.get_text(user_id, 'weekly_package') or "Weekly VIP ($25)"
+        monthly_btn = multilingual.get_text(user_id, 'monthly_package') or "Monthly VIP ($80)"
+        quarterly_btn = multilingual.get_text(user_id, 'quarterly_package') or "Quarterly VIP ($200)"
+        main_menu_btn = multilingual.get_text(user_id, 'main_menu') or "🏠 Main Menu"
         
         keyboard = InlineKeyboardMarkup(inline_keyboard=[
-            [InlineKeyboardButton(text=f"🥉 {weekly_btn}", callback_data="select_weekly")],
-            [InlineKeyboardButton(text=f"🥈 {monthly_btn}", callback_data="select_monthly")],
-            [InlineKeyboardButton(text=f"🥇 {quarterly_btn}", callback_data="select_quarterly")],
-            [InlineKeyboardButton(text=f"🏠 {main_menu_btn}", callback_data="main_menu")]
+            [InlineKeyboardButton(text=f"{weekly_btn}", callback_data="select_weekly")],
+            [InlineKeyboardButton(text=f"{monthly_btn}", callback_data="select_monthly")],
+            [InlineKeyboardButton(text=f"{quarterly_btn}", callback_data="select_quarterly")],
+            [InlineKeyboardButton(text=f"{main_menu_btn}", callback_data="main_menu")]
         ])
     
     # Issue #5 Fix: Use bulletproof safe message editing
