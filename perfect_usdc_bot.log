@@ -678,3 +678,29 @@
 2025-07-31 22:20:18,310 - __main__ - INFO - 💰 VIP Price: $80.0 USDC | Wallet: DEtg3HdJKUqk...
 2025-07-31 22:20:18,310 - aiogram.dispatcher - INFO - Start polling
 2025-07-31 22:20:18,467 - aiogram.dispatcher - INFO - Run polling for bot @Leandrocryptobot id=8124805384 - 'Leandro crypto'
+2025-07-31 22:21:17,241 - __main__ - INFO - ✅ Welcome sent to @user (ID: 6573507555)
+2025-07-31 22:21:17,241 - aiogram.event - INFO - Update id=163271670 is handled. Duration 614 ms by bot id=8124805384
+2025-07-31 22:21:19,717 - __main__ - INFO - VIP access shown to @user (ID: 6573507555)
+2025-07-31 22:21:19,717 - aiogram.event - INFO - Update id=163271671 is handled. Duration 553 ms by bot id=8124805384
+2025-07-31 22:21:20,945 - __main__ - ERROR - Message edit failed: Telegram server says - Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 930
+2025-07-31 22:21:21,103 - __main__ - ERROR - Fallback message failed: Telegram server says - Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 930
+2025-07-31 22:21:21,375 - __main__ - INFO - Package weekly selected by @None (ID: 6573507555)
+2025-07-31 22:21:21,375 - aiogram.event - INFO - Update id=163271672 is handled. Duration 593 ms by bot id=8124805384
+2025-07-31 22:21:23,276 - __main__ - ERROR - Message edit failed: Telegram server says - Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 954
+2025-07-31 22:21:23,433 - __main__ - ERROR - Fallback message failed: Telegram server says - Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 954
+2025-07-31 22:21:23,703 - __main__ - INFO - Package monthly selected by @None (ID: 6573507555)
+2025-07-31 22:21:23,704 - aiogram.event - INFO - Update id=163271673 is handled. Duration 586 ms by bot id=8124805384
+2025-07-31 22:22:24,366 - aiogram.event - INFO - Update id=163271674 is handled. Duration 572 ms by bot id=8124805384
+2025-07-31 22:22:26,027 - aiogram.event - INFO - Update id=163271675 is handled. Duration 729 ms by bot id=8124805384
+2025-07-31 22:22:57,871 - aiogram.event - INFO - Update id=163271676 is handled. Duration 568 ms by bot id=8124805384
+2025-07-31 22:22:59,792 - __main__ - INFO - Charts shown to None
+2025-07-31 22:22:59,793 - aiogram.event - INFO - Update id=163271677 is handled. Duration 562 ms by bot id=8124805384
+2025-07-31 22:23:02,777 - aiogram.event - INFO - Update id=163271678 is handled. Duration 564 ms by bot id=8124805384
+2025-07-31 22:23:04,274 - aiogram.event - INFO - Update id=163271679 is handled. Duration 717 ms by bot id=8124805384
+2025-07-31 22:23:05,388 - aiogram.event - INFO - Update id=163271680 is handled. Duration 577 ms by bot id=8124805384
+2025-07-31 22:23:06,411 - __main__ - INFO - VIP access shown to @user (ID: 6573507555)
+2025-07-31 22:23:06,411 - aiogram.event - INFO - Update id=163271681 is handled. Duration 549 ms by bot id=8124805384
+2025-07-31 22:23:08,127 - aiogram.event - INFO - Update id=163271682 is handled. Duration 561 ms by bot id=8124805384
+2025-07-31 22:23:08,860 - __main__ - ERROR - Message edit failed: Telegram server says - Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 976
+2025-07-31 22:23:09,018 - __main__ - ERROR - Fallback message failed: Telegram server says - Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 976
+2025-07-31 22:23:09,291 - aiogram.event - INFO - Update id=163271683 is handled. Duration 595 ms by bot id=8124805384
