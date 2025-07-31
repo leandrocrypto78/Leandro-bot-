@@ -831,3 +831,5 @@
 2025-07-31 23:12:22,332 - __main__ - INFO - 💰 VIP Price: $80.0 USDC | Wallet: DEtg3HdJKUqk...
 2025-07-31 23:12:22,332 - aiogram.dispatcher - INFO - Start polling
 2025-07-31 23:12:22,492 - aiogram.dispatcher - INFO - Run polling for bot @Leandrocryptobot id=8124805384 - 'Leandro crypto'
+2025-07-31 23:25:48,574 - __main__ - INFO - ✅ Welcome sent to @user (ID: 6573507555)
+2025-07-31 23:25:48,574 - aiogram.event - INFO - Update id=163271718 is handled. Duration 693 ms by bot id=8124805384
