@@ -610,3 +610,71 @@
 2025-07-31 22:17:08,886 - aiogram.dispatcher - WARNING - Sleep for 5.120619 seconds and try again... (tryings = 78, bot id = 8124805384)
 2025-07-31 22:19:41,500 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
 2025-07-31 22:19:41,516 - aiogram.dispatcher - WARNING - Sleep for 5.000824 seconds and try again... (tryings = 78, bot id = 8124805384)
+2025-07-31 22:19:41,998 - aiogram.dispatcher - INFO - Connection established (tryings = 79, bot id = 8124805384)
+2025-07-31 22:19:42,000 - aiogram.dispatcher - INFO - Connection established (tryings = 79, bot id = 8124805384)
+2025-07-31 22:19:42,160 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-31 22:19:42,160 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8124805384)
+2025-07-31 22:19:42,619 - __main__ - INFO - ✅ Welcome sent to @user (ID: 6573507555)
+2025-07-31 22:19:42,619 - aiogram.event - INFO - Update id=163271668 is handled. Duration 617 ms by bot id=8124805384
+2025-07-31 22:19:42,644 - __main__ - INFO - ✅ Welcome sent to @user (ID: 6573507555)
+2025-07-31 22:19:42,644 - aiogram.event - INFO - Update id=163271669 is handled. Duration 633 ms by bot id=8124805384
+2025-07-31 22:19:42,675 - __main__ - INFO - ✅ Welcome sent to @user (ID: 6573507555)
+2025-07-31 22:19:42,675 - aiogram.event - INFO - Update id=163271668 is handled. Duration 674 ms by bot id=8124805384
+2025-07-31 22:19:46,322 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-31 22:19:46,322 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8124805384)
+2025-07-31 22:19:47,005 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-31 22:19:47,005 - aiogram.dispatcher - WARNING - Sleep for 1.292869 seconds and try again... (tryings = 1, bot id = 8124805384)
+2025-07-31 22:19:50,483 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-31 22:19:50,483 - aiogram.dispatcher - WARNING - Sleep for 5.197280 seconds and try again... (tryings = 79, bot id = 8124805384)
+2025-07-31 22:19:51,458 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-31 22:19:51,458 - aiogram.dispatcher - WARNING - Sleep for 1.243560 seconds and try again... (tryings = 1, bot id = 8124805384)
+2025-07-31 22:19:52,862 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-31 22:19:52,862 - aiogram.dispatcher - WARNING - Sleep for 1.532299 seconds and try again... (tryings = 2, bot id = 8124805384)
+2025-07-31 22:19:57,564 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-31 22:19:57,564 - aiogram.dispatcher - WARNING - Sleep for 1.835070 seconds and try again... (tryings = 2, bot id = 8124805384)
+2025-07-31 22:19:58,846 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-31 22:19:58,846 - aiogram.dispatcher - WARNING - Sleep for 2.057010 seconds and try again... (tryings = 3, bot id = 8124805384)
+2025-07-31 22:19:59,563 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-07-31 22:19:59,563 - aiogram.dispatcher - WARNING - Sleep for 4.867682 seconds and try again... (tryings = 80, bot id = 8124805384)
+2025-07-31 22:20:02,063 - aiogram.dispatcher - WARNING - Received SIGTERM signal
+2025-07-31 22:20:02,063 - aiogram.dispatcher - WARNING - Received SIGTERM signal
+2025-07-31 22:20:02,064 - aiogram.dispatcher - INFO - Polling stopped for bot @Leandrocryptobot id=8124805384 - 'Leandro crypto'
+2025-07-31 22:20:02,064 - aiogram.dispatcher - INFO - Polling stopped for bot @Leandrocryptobot id=8124805384 - 'Leandro crypto'
+2025-07-31 22:20:02,063 - aiogram.dispatcher - WARNING - Received SIGTERM signal
+2025-07-31 22:20:02,065 - aiogram.dispatcher - INFO - Polling stopped
+2025-07-31 22:20:02,065 - aiogram.dispatcher - INFO - Polling stopped
+2025-07-31 22:20:02,065 - aiogram.dispatcher - INFO - Polling stopped for bot @Leandrocryptobot id=8124805384 - 'Leandro crypto'
+2025-07-31 22:20:02,066 - aiogram.dispatcher - INFO - Polling stopped
+2025-07-31 22:20:02,317 - __main__ - INFO - ✅ Bot session closed
+2025-07-31 22:20:02,317 - __main__ - INFO - ✅ Bot session closed
+2025-07-31 22:20:02,318 - __main__ - INFO - ✅ Bot session closed
+2025-07-31 22:20:02,320 - __main__ - INFO - 🔚 Bot shutdown complete
+2025-07-31 22:20:02,321 - __main__ - INFO - 🔚 Bot shutdown complete
+2025-07-31 22:20:02,322 - __main__ - INFO - 🔚 Bot shutdown complete
+2025-07-31 22:20:17,801 - __main__ - INFO - ============================================================
+2025-07-31 22:20:17,802 - __main__ - INFO - 🎯 PERFECT USDC TELEGRAM BOT - ALL CRITICAL ISSUES FIXED
+2025-07-31 22:20:17,802 - __main__ - INFO - ============================================================
+2025-07-31 22:20:17,802 - __main__ - INFO - ✅ Issue #1: No broken imports - all self-contained
+2025-07-31 22:20:17,802 - __main__ - INFO - ✅ Issue #2: Working USDC payment verification on Solana
+2025-07-31 22:20:17,802 - __main__ - INFO - ✅ Issue #3: Consolidated FSM states - no conflicts
+2025-07-31 22:20:17,802 - __main__ - INFO - ✅ Issue #4: No duplicate handlers - single working versions
+2025-07-31 22:20:17,802 - __main__ - INFO - ✅ Issue #5: Bulletproof safe message editing
+2025-07-31 22:20:17,802 - __main__ - INFO - ✅ Issue #6: Complete error handling for all inputs
+2025-07-31 22:20:17,802 - __main__ - INFO - ✅ Issue #7: Working VIP manager with proper activation
+2025-07-31 22:20:17,802 - __main__ - INFO - ✅ Issue #8: Simplified multilingual system
+2025-07-31 22:20:17,802 - __main__ - INFO - ✅ Issue #9: User-friendly payment flow
+2025-07-31 22:20:17,802 - __main__ - INFO - ✅ Issue #10: All basic functionality working
+2025-07-31 22:20:17,802 - __main__ - INFO - ✅ Issue #11: Bot startup guaranteed to work
+2025-07-31 22:20:17,802 - __main__ - INFO - ✅ Issue #12: Security vulnerabilities patched
+2025-07-31 22:20:17,802 - __main__ - INFO - ============================================================
+2025-07-31 22:20:17,802 - __main__ - INFO - 🚀 Starting Perfect USDC Bot - All Issues Fixed!
+2025-07-31 22:20:18,309 - __main__ - INFO - ✅ Bot connected successfully: @Leandrocryptobot (ID: 8124805384)
+2025-07-31 22:20:18,310 - __main__ - INFO - ✅ All handlers registered and ready
+2025-07-31 22:20:18,310 - __main__ - INFO - ✅ VIP Manager initialized: 0 active VIP members
+2025-07-31 22:20:18,310 - __main__ - INFO - ✅ USDC Verifier ready with 4 RPC endpoints
+2025-07-31 22:20:18,310 - __main__ - INFO - ✅ Multilingual system loaded with 11 languages
+2025-07-31 22:20:18,310 - __main__ - INFO - ✅ Rate limiting active: 100 requests/minute per user
+2025-07-31 22:20:18,310 - __main__ - INFO - 🔄 Starting polling - Bot is now live!
+2025-07-31 22:20:18,310 - __main__ - INFO - 💰 VIP Price: $80.0 USDC | Wallet: DEtg3HdJKUqk...
+2025-07-31 22:20:18,310 - aiogram.dispatcher - INFO - Start polling
+2025-07-31 22:20:18,467 - aiogram.dispatcher - INFO - Run polling for bot @Leandrocryptobot id=8124805384 - 'Leandro crypto'
