@@ -51,7 +51,9 @@ if not BOT_TOKEN:
     logger.error("❌ CRITICAL ERROR: TELEGRAM_BOT_TOKEN not set in environment variables!")
     logger.error("📝 Instructions: Add your bot token to Replit Secrets")
     exit(1)
-ADMIN_IDS = [6573507555, 1189538737]
+# SECURITY FIX: Remove admin bypass - all users must pay for VIP access
+# ADMIN_IDS = [6573507555, 1189538737]  # DISABLED FOR SECURITY
+ADMIN_IDS = []  # NO ADMIN BYPASS - EVERYONE MUST PAY
 WALLET_ADDRESS = "DEtg3HdJKUqkU4iXLatRyJHRcFgWuyTxLcpsnGw58B1Y"
 USDC_AMOUNT = 80.0  # Default monthly price
 USDC_MINT = "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
@@ -1480,8 +1482,18 @@ class WorkingVIPManager:
     
     def add_vip_member(self, user_id: int, username: Optional[str] = None, 
                       duration_days: int = 30, transaction_sig: Optional[str] = None, package: Optional[str] = None) -> bool:
-        """Issue #7 Fix: Working add_vip_member method"""
+        """SECURITY ENHANCED: VIP member addition with mandatory payment verification"""
         try:
+            # SECURITY: Require transaction signature for all VIP additions
+            if not transaction_sig:
+                logger.error(f"❌ SECURITY VIOLATION: Attempted VIP addition without transaction signature for user {user_id}")
+                return False
+            
+            # SECURITY: Check if transaction signature was already used
+            if transaction_sig in self.used_transactions['signatures']:
+                logger.error(f"❌ SECURITY VIOLATION: Attempted reuse of transaction signature {transaction_sig[:16]}... for user {user_id}")
+                return False
+            
             expires_at = datetime.now() + timedelta(days=duration_days)
             
             # Support multi-tier packages - determine package type from duration or package parameter
@@ -3236,46 +3248,47 @@ async def about_handler(callback: CallbackQuery):
     visit_link_btn = multilingual.get_text(user_id, 'visit_linktree') or "Visit Linktree"
     main_menu_btn = multilingual.get_text(user_id, 'main_menu') or "Main Menu"
     
-    about_text = f"""ℹ️ **{about_title}**
+    about_text = f"""ℹ️ **ABOUT LEANDRO CRYPTO BOT**
 
-**🚀 {premium_assistant}**
-{about_desc}
+**🚀 Your Premium Crypto Trading Assistant**
 
-**💎 {features_title}**
-• {real_time_track}
-• {prof_analysis}
-• {latest_news}
-• {multi_lang}
-• {secure_pay}
-• {vip_signals}
+Advanced cryptocurrency trading bot with professional market analysis, real-time data, and VIP trading signals.
 
-📩 **{contact_title}**
+**💎 Features:**
+• Real-time price tracking
+• Professional chart analysis  
+• Latest crypto news
+• Multi-language support (11 languages)
+• Secure USDC payment system
+• VIP trading signals (85%+ accuracy)
+
+📩 **Contact & Support**
 ━━━━━━━━━━━━━━━━━━━━━━━
 
-📱 **{telegram_support}**
-• Cibelle : @Cibellefonseca
+📱 **Telegram Support**
+• Cibelle: @Cibellefonseca
 • Leandro: @Leandrocrypto
 
-🤝 **{business_title}**
+🤝 **Business & Partnerships**
 📬 For collabs or promotions, contact: leandrocryptocontato@gmail.com
 ━━━━━━━━━━━━━━━━━━━━━━━
 
-🌐 **{online_title}**
+🌐 **Online Presence**
 
 • 🌍 Website: Coming Soon
-• 🧠 CoinMarketCap: https://coinmarketcap.com/community/profile/leandrocrypto2/
-• 🎵 TikTok: https://www.tiktok.com/@leandro.crypto_ 
-• 🐦 Twitter/X: https://x.com/leandrosaeth
-• ▶️ YouTube US: https://www.youtube.com/@leandrocryptousa
-• ▶️ YouTube BR: https://www.youtube.com/@leandrocrypto
-• 🌐 Linktree: https://linktr.ee/leandrocrypto
+• 🧠 CoinMarketCap: Professional Trader Profile
+• 🎵 TikTok: @leandro.crypto\\_ 
+• 🐦 Twitter/X: @leandrosaeth
+• ▶️ YouTube US: @leandrocryptousa
+• ▶️ YouTube BR: @leandrocrypto
+• 🌐 Linktree: linktr.ee/leandrocrypto
 
-**🛠️ {built_with}**
+**🛠️ Built with: Python, Aiogram, Asyncio**
 
-**💳 {vip_info}**
+**💳 VIP Membership: Multiple packages available from $25-$200 USDC**
 
-**{version_info}**
-**{status_info}**"""
+**Version: 1.0 - Bulletproof Edition**
+**Status: ✅ All systems operational**"""
 
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton(text=f"💎 {get_vip_btn}", callback_data="vip_access")],
