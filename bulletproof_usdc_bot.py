@@ -302,6 +302,27 @@ class ComprehensiveMultilingual:
         'available_packages': 'Available Packages:',
         'elite_signals_analysis': 'Elite signals & analysis',
         'all_plans_include': 'All Plans Include:',
+        'help_make_money': 'I help you make money with cryptocurrency! Here\'s what I can do:',
+        'free_features': 'FREE FEATURES:',
+        'real_time_prices': 'Real-time crypto prices',
+        'trading_charts': 'Trading charts',
+        'languages_available': 'Available in 11 languages',
+        'vip_features_paid': 'VIP FEATURES (PAID):',
+        'trading_signals': 'Trading signals (85%+ win rate)',
+        'professional_analysis': 'Professional analysis',
+        'profit_opportunities': 'Profit opportunities',
+        'exclusive_vip_group': 'Exclusive VIP group',
+        'vip_packages': 'VIP PACKAGES:',
+        'weekly_package': 'Weekly: $25 - 7 days of signals',
+        'monthly_package': 'Monthly: $80 - 30 days of signals',
+        'quarterly_package': 'Quarterly: $200 - 90 days of signals',
+        'ready_profits': 'Ready to start making profits? Click below!',
+        'get_vip_signals': '💎 GET VIP SIGNALS',
+        'free_prices': '📊 FREE PRICES',
+        'free_charts': '📈 FREE CHARTS',
+        'crypto_news_btn': '📰 CRYPTO NEWS',
+        'about_me': 'ℹ️ ABOUT ME',
+        'change_language': '🌍 LANGUAGE',
                 'premium_signals_accuracy': 'Premium signals (85%+ accuracy)',
                 'technical_analysis': 'Technical analysis',
                 'priority_support': 'Priority support',
@@ -456,8 +477,29 @@ class ComprehensiveMultilingual:
                 'crypto_market_heatmap': 'Mapa de Calor del Mercado Cripto',
                 'charts_powered_by': 'Gráficos profesionales impulsados por TradingView',
                 # VIP Package Translations
-                'vip_membership_choose': 'MEMBRESÍA VIP - ELIGE TU PLAN',
-                'available_packages': 'Paquetes Disponibles:',
+                        'vip_membership_choose': 'MEMBRESÍA VIP - ELIGE TU PLAN',
+        'available_packages': 'Paquetes Disponibles:',
+        'help_make_money': '¡Te ayudo a ganar dinero con criptomonedas! Esto es lo que puedo hacer:',
+        'free_features': 'CARACTERÍSTICAS GRATUITAS:',
+        'real_time_prices': 'Precios de cripto en tiempo real',
+        'trading_charts': 'Gráficos de trading',
+        'languages_available': 'Disponible en 11 idiomas',
+        'vip_features_paid': 'CARACTERÍSTICAS VIP (PAGADAS):',
+        'trading_signals': 'Señales de trading (85%+ de precisión)',
+        'professional_analysis': 'Análisis profesional',
+        'profit_opportunities': 'Oportunidades de ganancia',
+        'exclusive_vip_group': 'Grupo VIP exclusivo',
+        'vip_packages': 'PAQUETES VIP:',
+        'weekly_package': 'Semanal: $25 - 7 días de señales',
+        'monthly_package': 'Mensual: $80 - 30 días de señales',
+        'quarterly_package': 'Trimestral: $200 - 90 días de señales',
+        'ready_profits': '¿Listo para comenzar a obtener ganancias? ¡Haz clic abajo!',
+        'get_vip_signals': '💎 OBTENER SEÑALES VIP',
+        'free_prices': '📊 PRECIOS GRATIS',
+        'free_charts': '📈 GRÁFICOS GRATIS',
+        'crypto_news_btn': '📰 NOTICIAS CRYPTO',
+        'about_me': 'ℹ️ ACERCA DE MÍ',
+        'change_language': '🌍 IDIOMA',
                 'weekly_vip_plan': 'VIP Semanal - $25 USDC (7 días)',
                 'monthly_vip_plan': 'VIP Mensual - $80 USDC (30 días)',
                 'quarterly_vip_plan': 'VIP Trimestral - $200 USDC (90 días)',
@@ -563,8 +605,29 @@ class ComprehensiveMultilingual:
                 'crypto_market_heatmap': 'Mapa de Calor do Mercado Cripto',
                 'charts_powered_by': 'Gráficos profissionais desenvolvidos pela TradingView',
                 # VIP Package Translations
-                'vip_membership_choose': 'ASSINATURA VIP - ESCOLHA SEU PLANO',
-                'available_packages': 'Pacotes Disponíveis:',
+                        'vip_membership_choose': 'ASSINATURA VIP - ESCOLHA SEU PLANO',
+        'available_packages': 'Pacotes Disponíveis:',
+        'help_make_money': 'Eu te ajudo a ganhar dinheiro com criptomoedas! Veja o que posso fazer:',
+        'free_features': 'RECURSOS GRATUITOS:',
+        'real_time_prices': 'Preços de cripto em tempo real',
+        'trading_charts': 'Gráficos de trading',
+        'languages_available': 'Disponível em 11 idiomas',
+        'vip_features_paid': 'RECURSOS VIP (PAGOS):',
+        'trading_signals': 'Sinais de trading (85%+ de precisão)',
+        'professional_analysis': 'Análise profissional',
+        'profit_opportunities': 'Oportunidades de lucro',
+        'exclusive_vip_group': 'Grupo VIP exclusivo',
+        'vip_packages': 'PACOTES VIP:',
+        'weekly_package': 'Semanal: $25 - 7 dias de sinais',
+        'monthly_package': 'Mensal: $80 - 30 dias de sinais',
+        'quarterly_package': 'Trimestral: $200 - 90 dias de sinais',
+        'ready_profits': 'Pronto para começar a lucrar? Clique abaixo!',
+        'get_vip_signals': '💎 OBTER SINAIS VIP',
+        'free_prices': '📊 PREÇOS GRÁTIS',
+        'free_charts': '📈 GRÁFICOS GRÁTIS',
+        'crypto_news_btn': '📰 NOTÍCIAS CRYPTO',
+        'about_me': 'ℹ️ SOBRE MIM',
+        'change_language': '🌍 IDIOMA',
                 'weekly_vip_plan': 'VIP Semanal - $25 USDC (7 dias)',
                 'monthly_vip_plan': 'VIP Mensal - $80 USDC (30 dias)',
                 'quarterly_vip_plan': 'VIP Trimestral - $200 USDC (90 dias)',
@@ -1919,38 +1982,72 @@ async def start_handler(message: Message):
     quarterly_text = multilingual.get_text(user_id, 'quarterly_vip') or "Quarterly VIP: $200 USDC - Elite signals (90 days)"
     profits_text = multilingual.get_text(user_id, 'ready_profits') or "Ready to start making profits? Choose below:"
     
+    # Get user's preferred language for personalized content
+    user_lang = multilingual.get_user_language(user_id)
+    
+    # Get all translated content with fallbacks
+    assistant_text = multilingual.get_text(user_id, 'premium_assistant') or "Your Crypto Trading Assistant"
+    help_text = multilingual.get_text(user_id, 'help_make_money') or "I help you make money with cryptocurrency! Here's what I can do:"
+    free_features = multilingual.get_text(user_id, 'free_features') or "FREE FEATURES:"
+    real_time_prices = multilingual.get_text(user_id, 'real_time_prices') or "Real-time crypto prices"
+    trading_charts = multilingual.get_text(user_id, 'trading_charts') or "Trading charts"
+    crypto_news = multilingual.get_text(user_id, 'crypto_news') or "Latest crypto news"
+    languages_available = multilingual.get_text(user_id, 'languages_available') or "Available in 11 languages"
+    vip_features_paid = multilingual.get_text(user_id, 'vip_features_paid') or "VIP FEATURES (PAID):"
+    trading_signals = multilingual.get_text(user_id, 'trading_signals') or "Trading signals (85%+ win rate)"
+    professional_analysis = multilingual.get_text(user_id, 'professional_analysis') or "Professional analysis"
+    profit_opportunities = multilingual.get_text(user_id, 'profit_opportunities') or "Profit opportunities"
+    exclusive_vip_group = multilingual.get_text(user_id, 'exclusive_vip_group') or "Exclusive VIP group"
+    vip_packages = multilingual.get_text(user_id, 'vip_packages') or "VIP PACKAGES:"
+    weekly_package = multilingual.get_text(user_id, 'weekly_package') or "Weekly: $25 - 7 days of signals"
+    monthly_package = multilingual.get_text(user_id, 'monthly_package') or "Monthly: $80 - 30 days of signals"
+    quarterly_package = multilingual.get_text(user_id, 'quarterly_package') or "Quarterly: $200 - 90 days of signals"
+    ready_profits = multilingual.get_text(user_id, 'ready_profits') or "Ready to start making profits? Click below!"
+
     welcome_text = f"""{greeting}
 
-🚀 **Your Crypto Trading Assistant**
+🚀 **{assistant_text}**
 
-I help you make money with cryptocurrency! Here's what I can do:
+{help_text}
 
-**📊 FREE FEATURES:**
-• 💰 Real-time crypto prices
-• 📈 Trading charts
-• 📰 Latest crypto news
-• 🌍 Available in 11 languages
+**📊 {free_features}**
+• 💰 {real_time_prices}
+• 📈 {trading_charts}
+• 📰 {crypto_news}
+• 🌍 {languages_available}
 
-**💎 VIP FEATURES (PAID):**
-• 🎯 Trading signals (85%+ win rate)
-• 📈 Professional analysis
-• 💰 Profit opportunities
-• 👥 Exclusive VIP group
+**💎 {vip_features_paid}**
+• 🎯 {trading_signals}
+• 📈 {professional_analysis}
+• 💰 {profit_opportunities}
+• 👥 {exclusive_vip_group}
 
-**🔥 VIP PACKAGES:**
-🥉 **Weekly: $25** - 7 days of signals
-🥈 **Monthly: $80** - 30 days of signals  
-🥇 **Quarterly: $200** - 90 days of signals
+**🔥 {vip_packages}**
+🥉 **{weekly_package}**
+🥈 **{monthly_package}**
+🥇 **{quarterly_package}**
 
-**Ready to start making profits? Click below! 👇**"""
+**{ready_profits} 👇**"""
 
-    # Simplified, user-friendly buttons
+    # Get translated button texts - user-friendly with multilingual support
+    vip_btn = multilingual.get_text(user_id, 'get_vip_signals') or "💎 GET VIP SIGNALS"
+    prices_btn = multilingual.get_text(user_id, 'free_prices') or "📊 FREE PRICES"
+    charts_btn = multilingual.get_text(user_id, 'free_charts') or "📈 FREE CHARTS"
+    news_btn = multilingual.get_text(user_id, 'crypto_news_btn') or "📰 CRYPTO NEWS"
+    about_btn = multilingual.get_text(user_id, 'about_me') or "ℹ️ ABOUT ME"
+    language_btn = multilingual.get_text(user_id, 'change_language') or "🌍 LANGUAGE"
+    
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
-        [InlineKeyboardButton(text="💎 GET VIP SIGNALS", callback_data="vip_access")],
-        [InlineKeyboardButton(text="📊 FREE PRICES", callback_data="market_data")],
-        [InlineKeyboardButton(text="📈 FREE CHARTS", callback_data="charts")],
-        [InlineKeyboardButton(text="📰 CRYPTO NEWS", callback_data="news")],
-        [InlineKeyboardButton(text="ℹ️ ABOUT ME", callback_data="about")]
+        [InlineKeyboardButton(text=vip_btn, callback_data="vip_access")],
+        [
+            InlineKeyboardButton(text=prices_btn, callback_data="market_data"),
+            InlineKeyboardButton(text=charts_btn, callback_data="charts")
+        ],
+        [
+            InlineKeyboardButton(text=news_btn, callback_data="news"),
+            InlineKeyboardButton(text=about_btn, callback_data="about")
+        ],
+        [InlineKeyboardButton(text=language_btn, callback_data="language")]
     ])
     
     try:
