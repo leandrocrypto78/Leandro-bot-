@@ -112,3 +112,16 @@
 2025-08-01 13:29:53,373 - aiogram.dispatcher - INFO - Run polling for bot @Leandrocryptobot id=8124805384 - 'Leandro crypto'
 2025-08-01 13:29:54,253 - __main__ - INFO - ✅ Welcome sent to @user (ID: 6573507555)
 2025-08-01 13:29:54,253 - aiogram.event - INFO - Update id=163271758 is handled. Duration 719 ms by bot id=8124805384
+2025-08-01 13:45:18,186 - __main__ - INFO - ✅ Welcome sent to @user (ID: 6573507555)
+2025-08-01 13:45:18,187 - aiogram.event - INFO - Update id=163271759 is handled. Duration 307 ms by bot id=8124805384
+2025-08-01 13:45:19,911 - aiogram.event - INFO - Update id=163271760 is handled. Duration 568 ms by bot id=8124805384
+2025-08-01 13:45:21,534 - aiogram.event - INFO - Update id=163271761 is handled. Duration 563 ms by bot id=8124805384
+2025-08-01 13:45:23,044 - __main__ - INFO - VIP access shown to @user (ID: 6573507555)
+2025-08-01 13:45:23,044 - aiogram.event - INFO - Update id=163271762 is handled. Duration 567 ms by bot id=8124805384
+2025-08-01 15:14:08,897 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-08-01 15:14:08,908 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8124805384)
+2025-08-01 15:14:10,428 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 8124805384)
+2025-08-01 15:14:11,180 - __main__ - INFO - ✅ Welcome sent to @user (ID: 6573507555)
+2025-08-01 15:14:11,180 - aiogram.event - INFO - Update id=163271764 is handled. Duration 747 ms by bot id=8124805384
+2025-08-01 15:14:11,224 - __main__ - INFO - ✅ Welcome sent to @user (ID: 6573507555)
+2025-08-01 15:14:11,224 - aiogram.event - INFO - Update id=163271763 is handled. Duration 795 ms by bot id=8124805384
