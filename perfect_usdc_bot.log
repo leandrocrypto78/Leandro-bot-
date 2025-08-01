@@ -125,3 +125,8 @@
 2025-08-01 15:14:11,180 - aiogram.event - INFO - Update id=163271764 is handled. Duration 747 ms by bot id=8124805384
 2025-08-01 15:14:11,224 - __main__ - INFO - ✅ Welcome sent to @user (ID: 6573507555)
 2025-08-01 15:14:11,224 - aiogram.event - INFO - Update id=163271763 is handled. Duration 795 ms by bot id=8124805384
+2025-08-01 15:19:25,193 - aiogram.dispatcher - WARNING - Received SIGTERM signal
+2025-08-01 15:19:25,195 - aiogram.dispatcher - INFO - Polling stopped for bot @Leandrocryptobot id=8124805384 - 'Leandro crypto'
+2025-08-01 15:19:25,195 - aiogram.dispatcher - INFO - Polling stopped
+2025-08-01 15:19:25,447 - __main__ - INFO - ✅ Bot session closed
+2025-08-01 15:19:25,450 - __main__ - INFO - 🔚 Bot shutdown complete
