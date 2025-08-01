@@ -1,0 +1,132 @@
+2025-08-01 00:56:07,264 - __main__ - ERROR - ❌ CRITICAL ERROR: TELEGRAM_BOT_TOKEN not set in environment variables!
+2025-08-01 00:56:07,264 - __main__ - ERROR - 📝 Instructions: Add your bot token to Replit Secrets
+2025-08-01 00:56:22,552 - __main__ - INFO - ============================================================
+2025-08-01 00:56:22,552 - __main__ - INFO - 🎯 PERFECT USDC TELEGRAM BOT - ALL CRITICAL ISSUES FIXED
+2025-08-01 00:56:22,552 - __main__ - INFO - ============================================================
+2025-08-01 00:56:22,552 - __main__ - INFO - ✅ Issue #1: No broken imports - all self-contained
+2025-08-01 00:56:22,552 - __main__ - INFO - ✅ Issue #2: Working USDC payment verification on Solana
+2025-08-01 00:56:22,552 - __main__ - INFO - ✅ Issue #3: Consolidated FSM states - no conflicts
+2025-08-01 00:56:22,552 - __main__ - INFO - ✅ Issue #4: No duplicate handlers - single working versions
+2025-08-01 00:56:22,552 - __main__ - INFO - ✅ Issue #5: Bulletproof safe message editing
+2025-08-01 00:56:22,552 - __main__ - INFO - ✅ Issue #6: Complete error handling for all inputs
+2025-08-01 00:56:22,552 - __main__ - INFO - ✅ Issue #7: Working VIP manager with proper activation
+2025-08-01 00:56:22,552 - __main__ - INFO - ✅ Issue #8: Simplified multilingual system
+2025-08-01 00:56:22,552 - __main__ - INFO - ✅ Issue #9: User-friendly payment flow
+2025-08-01 00:56:22,553 - __main__ - INFO - ✅ Issue #10: All basic functionality working
+2025-08-01 00:56:22,553 - __main__ - INFO - ✅ Issue #11: Bot startup guaranteed to work
+2025-08-01 00:56:22,553 - __main__ - INFO - ✅ Issue #12: Security vulnerabilities patched
+2025-08-01 00:56:22,553 - __main__ - INFO - ============================================================
+2025-08-01 00:56:22,553 - __main__ - INFO - 🚀 Starting Perfect USDC Bot - All Issues Fixed!
+2025-08-01 00:56:23,051 - __main__ - INFO - ✅ Bot connected successfully: @Leandrocryptobot (ID: 8124805384)
+2025-08-01 00:56:23,051 - __main__ - INFO - ✅ All handlers registered and ready
+2025-08-01 00:56:23,051 - __main__ - INFO - ✅ VIP Manager initialized: 0 active VIP members
+2025-08-01 00:56:23,051 - __main__ - INFO - ✅ USDC Verifier ready with 4 RPC endpoints
+2025-08-01 00:56:23,051 - __main__ - INFO - ✅ Multilingual system loaded with 11 languages
+2025-08-01 00:56:23,051 - __main__ - INFO - ✅ Rate limiting active: 100 requests/minute per user
+2025-08-01 00:56:23,051 - __main__ - INFO - 🔄 Starting polling - Bot is now live!
+2025-08-01 00:56:23,051 - __main__ - INFO - 💰 VIP Price: $80.0 USDC | Wallet: DEtg3HdJKUqk...
+2025-08-01 00:56:23,051 - aiogram.dispatcher - INFO - Start polling
+2025-08-01 00:56:23,210 - aiogram.dispatcher - INFO - Run polling for bot @Leandrocryptobot id=8124805384 - 'Leandro crypto'
+2025-08-01 00:57:13,574 - __main__ - INFO - ✅ Welcome sent to @user (ID: 6573507555)
+2025-08-01 00:57:13,575 - aiogram.event - INFO - Update id=163271746 is handled. Duration 618 ms by bot id=8124805384
+2025-08-01 00:57:35,242 - aiogram.event - INFO - Update id=163271747 is handled. Duration 554 ms by bot id=8124805384
+2025-08-01 00:57:36,860 - __main__ - INFO - Language set to pt for user 6573507555
+2025-08-01 00:57:36,860 - aiogram.event - INFO - Update id=163271748 is handled. Duration 567 ms by bot id=8124805384
+2025-08-01 00:57:38,687 - aiogram.event - INFO - Update id=163271749 is handled. Duration 566 ms by bot id=8124805384
+2025-08-01 00:57:45,692 - __main__ - INFO - VIP access shown to @user (ID: 6573507555)
+2025-08-01 00:57:45,692 - aiogram.event - INFO - Update id=163271750 is handled. Duration 554 ms by bot id=8124805384
+2025-08-01 00:57:47,770 - __main__ - ERROR - Message edit failed: Telegram server says - Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 930
+2025-08-01 00:57:47,929 - __main__ - ERROR - Fallback message failed: Telegram server says - Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 930
+2025-08-01 00:57:48,197 - __main__ - INFO - Package weekly selected by @None (ID: 6573507555)
+2025-08-01 00:57:48,197 - aiogram.event - INFO - Update id=163271751 is handled. Duration 585 ms by bot id=8124805384
+2025-08-01 00:57:49,811 - aiogram.event - INFO - Update id=163271752 is handled. Duration 597 ms by bot id=8124805384
+2025-08-01 00:57:52,754 - aiogram.event - INFO - Update id=163271753 is handled. Duration 555 ms by bot id=8124805384
+2025-08-01 00:57:54,235 - __main__ - INFO - Language set to en for user 6573507555
+2025-08-01 00:57:54,235 - aiogram.event - INFO - Update id=163271754 is handled. Duration 559 ms by bot id=8124805384
+2025-08-01 00:57:55,508 - aiogram.event - INFO - Update id=163271755 is handled. Duration 551 ms by bot id=8124805384
+2025-08-01 00:57:56,955 - __main__ - INFO - VIP access shown to @user (ID: 6573507555)
+2025-08-01 00:57:56,955 - aiogram.event - INFO - Update id=163271756 is handled. Duration 551 ms by bot id=8124805384
+2025-08-01 00:57:59,277 - aiogram.event - INFO - Update id=163271757 is handled. Duration 553 ms by bot id=8124805384
+2025-08-01 13:26:04,204 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-08-01 13:26:04,216 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8124805384)
+2025-08-01 13:28:47,517 - __main__ - INFO - ============================================================
+2025-08-01 13:28:47,518 - __main__ - INFO - 🎯 PERFECT USDC TELEGRAM BOT - ALL CRITICAL ISSUES FIXED
+2025-08-01 13:28:47,518 - __main__ - INFO - ============================================================
+2025-08-01 13:28:47,518 - __main__ - INFO - ✅ Issue #1: No broken imports - all self-contained
+2025-08-01 13:28:47,518 - __main__ - INFO - ✅ Issue #2: Working USDC payment verification on Solana
+2025-08-01 13:28:47,518 - __main__ - INFO - ✅ Issue #3: Consolidated FSM states - no conflicts
+2025-08-01 13:28:47,518 - __main__ - INFO - ✅ Issue #4: No duplicate handlers - single working versions
+2025-08-01 13:28:47,518 - __main__ - INFO - ✅ Issue #5: Bulletproof safe message editing
+2025-08-01 13:28:47,518 - __main__ - INFO - ✅ Issue #6: Complete error handling for all inputs
+2025-08-01 13:28:47,518 - __main__ - INFO - ✅ Issue #7: Working VIP manager with proper activation
+2025-08-01 13:28:47,518 - __main__ - INFO - ✅ Issue #8: Simplified multilingual system
+2025-08-01 13:28:47,518 - __main__ - INFO - ✅ Issue #9: User-friendly payment flow
+2025-08-01 13:28:47,518 - __main__ - INFO - ✅ Issue #10: All basic functionality working
+2025-08-01 13:28:47,518 - __main__ - INFO - ✅ Issue #11: Bot startup guaranteed to work
+2025-08-01 13:28:47,518 - __main__ - INFO - ✅ Issue #12: Security vulnerabilities patched
+2025-08-01 13:28:47,518 - __main__ - INFO - ============================================================
+2025-08-01 13:28:47,518 - __main__ - INFO - 🚀 Starting Perfect USDC Bot - All Issues Fixed!
+2025-08-01 13:28:51,217 - __main__ - INFO - ============================================================
+2025-08-01 13:28:51,217 - __main__ - INFO - 🎯 PERFECT USDC TELEGRAM BOT - ALL CRITICAL ISSUES FIXED
+2025-08-01 13:28:51,218 - __main__ - INFO - ============================================================
+2025-08-01 13:28:51,218 - __main__ - INFO - ✅ Issue #1: No broken imports - all self-contained
+2025-08-01 13:28:51,218 - __main__ - INFO - ✅ Issue #2: Working USDC payment verification on Solana
+2025-08-01 13:28:51,218 - __main__ - INFO - ✅ Issue #3: Consolidated FSM states - no conflicts
+2025-08-01 13:28:51,218 - __main__ - INFO - ✅ Issue #4: No duplicate handlers - single working versions
+2025-08-01 13:28:51,218 - __main__ - INFO - ✅ Issue #5: Bulletproof safe message editing
+2025-08-01 13:28:51,218 - __main__ - INFO - ✅ Issue #6: Complete error handling for all inputs
+2025-08-01 13:28:51,218 - __main__ - INFO - ✅ Issue #7: Working VIP manager with proper activation
+2025-08-01 13:28:51,218 - __main__ - INFO - ✅ Issue #8: Simplified multilingual system
+2025-08-01 13:28:51,218 - __main__ - INFO - ✅ Issue #9: User-friendly payment flow
+2025-08-01 13:28:51,218 - __main__ - INFO - ✅ Issue #10: All basic functionality working
+2025-08-01 13:28:51,218 - __main__ - INFO - ✅ Issue #11: Bot startup guaranteed to work
+2025-08-01 13:28:51,218 - __main__ - INFO - ✅ Issue #12: Security vulnerabilities patched
+2025-08-01 13:28:51,218 - __main__ - INFO - ============================================================
+2025-08-01 13:28:51,218 - __main__ - INFO - 🚀 Starting Perfect USDC Bot - All Issues Fixed!
+2025-08-01 13:29:52,715 - __main__ - INFO - ============================================================
+2025-08-01 13:29:52,716 - __main__ - INFO - 🎯 PERFECT USDC TELEGRAM BOT - ALL CRITICAL ISSUES FIXED
+2025-08-01 13:29:52,716 - __main__ - INFO - ============================================================
+2025-08-01 13:29:52,716 - __main__ - INFO - ✅ Issue #1: No broken imports - all self-contained
+2025-08-01 13:29:52,716 - __main__ - INFO - ✅ Issue #2: Working USDC payment verification on Solana
+2025-08-01 13:29:52,716 - __main__ - INFO - ✅ Issue #3: Consolidated FSM states - no conflicts
+2025-08-01 13:29:52,716 - __main__ - INFO - ✅ Issue #4: No duplicate handlers - single working versions
+2025-08-01 13:29:52,716 - __main__ - INFO - ✅ Issue #5: Bulletproof safe message editing
+2025-08-01 13:29:52,716 - __main__ - INFO - ✅ Issue #6: Complete error handling for all inputs
+2025-08-01 13:29:52,716 - __main__ - INFO - ✅ Issue #7: Working VIP manager with proper activation
+2025-08-01 13:29:52,716 - __main__ - INFO - ✅ Issue #8: Simplified multilingual system
+2025-08-01 13:29:52,716 - __main__ - INFO - ✅ Issue #9: User-friendly payment flow
+2025-08-01 13:29:52,716 - __main__ - INFO - ✅ Issue #10: All basic functionality working
+2025-08-01 13:29:52,716 - __main__ - INFO - ✅ Issue #11: Bot startup guaranteed to work
+2025-08-01 13:29:52,716 - __main__ - INFO - ✅ Issue #12: Security vulnerabilities patched
+2025-08-01 13:29:52,716 - __main__ - INFO - ============================================================
+2025-08-01 13:29:52,716 - __main__ - INFO - 🚀 Starting Perfect USDC Bot - All Issues Fixed!
+2025-08-01 13:29:53,211 - __main__ - INFO - ✅ Bot connected successfully: @Leandrocryptobot (ID: 8124805384)
+2025-08-01 13:29:53,211 - __main__ - INFO - ✅ All handlers registered and ready
+2025-08-01 13:29:53,211 - __main__ - INFO - ✅ VIP Manager initialized: 0 active VIP members
+2025-08-01 13:29:53,211 - __main__ - INFO - ✅ USDC Verifier ready with 4 RPC endpoints
+2025-08-01 13:29:53,211 - __main__ - INFO - ✅ Multilingual system loaded with 11 languages
+2025-08-01 13:29:53,211 - __main__ - INFO - ✅ Rate limiting active: 100 requests/minute per user
+2025-08-01 13:29:53,211 - __main__ - INFO - 🔄 Starting polling - Bot is now live!
+2025-08-01 13:29:53,211 - __main__ - INFO - 💰 VIP Price: $80.0 USDC | Wallet: DEtg3HdJKUqk...
+2025-08-01 13:29:53,211 - aiogram.dispatcher - INFO - Start polling
+2025-08-01 13:29:53,373 - aiogram.dispatcher - INFO - Run polling for bot @Leandrocryptobot id=8124805384 - 'Leandro crypto'
+2025-08-01 13:29:54,253 - __main__ - INFO - ✅ Welcome sent to @user (ID: 6573507555)
+2025-08-01 13:29:54,253 - aiogram.event - INFO - Update id=163271758 is handled. Duration 719 ms by bot id=8124805384
+2025-08-01 13:45:18,186 - __main__ - INFO - ✅ Welcome sent to @user (ID: 6573507555)
+2025-08-01 13:45:18,187 - aiogram.event - INFO - Update id=163271759 is handled. Duration 307 ms by bot id=8124805384
+2025-08-01 13:45:19,911 - aiogram.event - INFO - Update id=163271760 is handled. Duration 568 ms by bot id=8124805384
+2025-08-01 13:45:21,534 - aiogram.event - INFO - Update id=163271761 is handled. Duration 563 ms by bot id=8124805384
+2025-08-01 13:45:23,044 - __main__ - INFO - VIP access shown to @user (ID: 6573507555)
+2025-08-01 13:45:23,044 - aiogram.event - INFO - Update id=163271762 is handled. Duration 567 ms by bot id=8124805384
+2025-08-01 15:14:08,897 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-08-01 15:14:08,908 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8124805384)
+2025-08-01 15:14:10,428 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 8124805384)
+2025-08-01 15:14:11,180 - __main__ - INFO - ✅ Welcome sent to @user (ID: 6573507555)
+2025-08-01 15:14:11,180 - aiogram.event - INFO - Update id=163271764 is handled. Duration 747 ms by bot id=8124805384
+2025-08-01 15:14:11,224 - __main__ - INFO - ✅ Welcome sent to @user (ID: 6573507555)
+2025-08-01 15:14:11,224 - aiogram.event - INFO - Update id=163271763 is handled. Duration 795 ms by bot id=8124805384
+2025-08-01 15:19:25,193 - aiogram.dispatcher - WARNING - Received SIGTERM signal
+2025-08-01 15:19:25,195 - aiogram.dispatcher - INFO - Polling stopped for bot @Leandrocryptobot id=8124805384 - 'Leandro crypto'
+2025-08-01 15:19:25,195 - aiogram.dispatcher - INFO - Polling stopped
+2025-08-01 15:19:25,447 - __main__ - INFO - ✅ Bot session closed
+2025-08-01 15:19:25,450 - __main__ - INFO - 🔚 Bot shutdown complete

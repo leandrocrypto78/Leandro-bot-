@@ -1,0 +1,45 @@
+2025-08-01 00:47:45,882 - __main__ - ERROR - ❌ Failed to import required modules: No module named 'handlers'
+2025-08-01 00:49:02,399 - __main__ - INFO - ✅ All modules imported successfully
+2025-08-01 00:49:02,400 - __main__ - ERROR - Please set your TELEGRAM_BOT_TOKEN in Secrets
+2025-08-01 00:49:18,252 - main_1753060384126 - INFO - ✅ All modules imported successfully
+2025-08-01 00:49:18,252 - main_1753060384126 - ERROR - Please set your TELEGRAM_BOT_TOKEN in Secrets
+2025-08-01 00:51:01,203 - __main__ - INFO - ✅ All modules imported successfully
+2025-08-01 00:51:01,203 - __main__ - ERROR - Please set your TELEGRAM_BOT_TOKEN in Secrets
+2025-08-01 00:53:09,956 - __main__ - INFO - ✅ All modules imported successfully
+2025-08-01 00:53:09,961 - market_data - INFO - ✅ Market Data service initialized
+2025-08-01 00:53:09,962 - vip_manager - INFO - ✅ VIP Manager initialized
+2025-08-01 00:53:09,962 - news_handler - INFO - ✅ News Handler initialized
+2025-08-01 00:53:09,962 - charting - INFO - ✅ Chart Generator initialized
+2025-08-01 00:53:09,962 - health_monitor - INFO - ✅ Health Monitor initialized
+2025-08-01 00:53:09,962 - __main__ - INFO - ✅ Health monitor initialized
+2025-08-01 00:53:09,963 - __main__ - INFO - 🚀 Starting Leandro Crypto Bot v2.0 Professional... (Attempt 1/5)
+2025-08-01 00:53:09,963 - __main__ - INFO - 🔄 Checking for other bot instances...
+2025-08-01 00:53:15,458 - __main__ - INFO - Aggressive webhook clear 1/10
+2025-08-01 00:53:20,623 - __main__ - INFO - Aggressive webhook clear 2/10
+2025-08-01 00:53:25,786 - __main__ - INFO - Aggressive webhook clear 3/10
+2025-08-01 00:53:30,949 - __main__ - INFO - Aggressive webhook clear 4/10
+2025-08-01 00:53:36,113 - __main__ - INFO - Aggressive webhook clear 5/10
+2025-08-01 00:53:41,277 - __main__ - INFO - Aggressive webhook clear 6/10
+2025-08-01 00:53:46,441 - __main__ - INFO - Aggressive webhook clear 7/10
+2025-08-01 00:53:51,605 - __main__ - INFO - Aggressive webhook clear 8/10
+2025-08-01 00:53:56,769 - __main__ - INFO - Aggressive webhook clear 9/10
+2025-08-01 00:54:01,931 - __main__ - INFO - Aggressive webhook clear 10/10
+2025-08-01 00:54:01,931 - __main__ - INFO - ⏳ Waiting 30 seconds for all instances to terminate...
+2025-08-01 00:54:32,426 - __main__ - INFO - ✅ Bot verified as single instance: Leandrocryptobot
+2025-08-01 00:54:32,584 - __main__ - INFO - 🤖 Bot Identity Verified: @Leandrocryptobot (ID: 8124805384)
+2025-08-01 00:54:32,585 - __main__ - INFO - 📝 Bot Name: Leandro crypto
+2025-08-01 00:54:32,585 - __main__ - WARNING - ⚠️ Bot username mismatch! Expected: @Leandrocryptosbot, Got: @Leandrocryptobot
+2025-08-01 00:54:32,585 - __main__ - INFO - ✅ VIP Manager validated
+2025-08-01 00:54:32,585 - __main__ - INFO - ✅ Market Data service ready
+2025-08-01 00:54:32,585 - __main__ - INFO - ✅ News Handler ready
+2025-08-01 00:54:32,585 - handlers - INFO - ✅ Handlers setup completed
+2025-08-01 00:54:32,585 - admin_panel - INFO - ✅ Admin Panel initialized
+2025-08-01 00:54:32,585 - admin_panel - INFO - ✅ Admin panel handlers setup completed
+2025-08-01 00:54:32,585 - __main__ - INFO - ✅ Admin panel initialized
+2025-08-01 00:54:32,585 - __main__ - INFO - ✅ Health monitoring started
+2025-08-01 00:54:32,585 - __main__ - INFO - 🔄 Starting bot polling with conflict protection...
+2025-08-01 00:54:32,586 - health_monitor - INFO - 🔄 Health monitoring started
+2025-08-01 00:54:33,059 - health_monitor - INFO - ✅ Health check passed - Bot: @Leandrocryptobot, Uptime: 83s
+2025-08-01 00:55:18,414 - __main__ - INFO - Polling attempt 1/15
+2025-08-01 00:55:18,415 - aiogram.dispatcher - INFO - Start polling
+2025-08-01 00:55:18,892 - aiogram.dispatcher - INFO - Run polling for bot @Leandrocryptobot id=8124805384 - 'Leandro crypto'
