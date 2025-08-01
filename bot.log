@@ -5,3 +5,21 @@
 2025-08-01 00:49:18,252 - main_1753060384126 - ERROR - Please set your TELEGRAM_BOT_TOKEN in Secrets
 2025-08-01 00:51:01,203 - __main__ - INFO - ✅ All modules imported successfully
 2025-08-01 00:51:01,203 - __main__ - ERROR - Please set your TELEGRAM_BOT_TOKEN in Secrets
+2025-08-01 00:53:09,956 - __main__ - INFO - ✅ All modules imported successfully
+2025-08-01 00:53:09,961 - market_data - INFO - ✅ Market Data service initialized
+2025-08-01 00:53:09,962 - vip_manager - INFO - ✅ VIP Manager initialized
+2025-08-01 00:53:09,962 - news_handler - INFO - ✅ News Handler initialized
+2025-08-01 00:53:09,962 - charting - INFO - ✅ Chart Generator initialized
+2025-08-01 00:53:09,962 - health_monitor - INFO - ✅ Health Monitor initialized
+2025-08-01 00:53:09,962 - __main__ - INFO - ✅ Health monitor initialized
+2025-08-01 00:53:09,963 - __main__ - INFO - 🚀 Starting Leandro Crypto Bot v2.0 Professional... (Attempt 1/5)
+2025-08-01 00:53:09,963 - __main__ - INFO - 🔄 Checking for other bot instances...
+2025-08-01 00:53:15,458 - __main__ - INFO - Aggressive webhook clear 1/10
+2025-08-01 00:53:20,623 - __main__ - INFO - Aggressive webhook clear 2/10
+2025-08-01 00:53:25,786 - __main__ - INFO - Aggressive webhook clear 3/10
+2025-08-01 00:53:30,949 - __main__ - INFO - Aggressive webhook clear 4/10
+2025-08-01 00:53:36,113 - __main__ - INFO - Aggressive webhook clear 5/10
+2025-08-01 00:53:41,277 - __main__ - INFO - Aggressive webhook clear 6/10
+2025-08-01 00:53:46,441 - __main__ - INFO - Aggressive webhook clear 7/10
+2025-08-01 00:53:51,605 - __main__ - INFO - Aggressive webhook clear 8/10
+2025-08-01 00:53:56,769 - __main__ - INFO - Aggressive webhook clear 9/10
