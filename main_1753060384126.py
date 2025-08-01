@@ -29,11 +29,24 @@ except ImportError as e:
     logger.error(f"❌ Failed to import required modules: {e}")
     exit(1)
 
+# Load environment variables from .env file if it exists
+if os.path.exists('.env'):
+    with open('.env', 'r') as f:
+        for line in f:
+            line = line.strip()
+            if line and not line.startswith('#') and '=' in line:
+                key, value = line.split('=', 1)
+                os.environ[key] = value
+
 # Get API token from environment variable
 API_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
 
 if not API_TOKEN:
-    logger.error("Please set your TELEGRAM_BOT_TOKEN in Secrets")
+    logger.error("Please set your TELEGRAM_BOT_TOKEN environment variable")
+    logger.error("You can either:")
+    logger.error("1. Set it directly: export TELEGRAM_BOT_TOKEN='your_token'")
+    logger.error("2. Create a .env file with: TELEGRAM_BOT_TOKEN=your_token")
+    logger.error("3. Run the setup script: python setup_bot.py")
     exit(1)
 
 # Initialize bot and dispatcher with FSM storage
