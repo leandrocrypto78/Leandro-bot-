@@ -1,0 +1,33 @@
+[Unit]
+Description=Leandro Crypto Bot 24/7 Service
+After=network.target
+Wants=network.target
+
+[Service]
+Type=simple
+User=ubuntu
+Group=ubuntu
+WorkingDirectory=/workspace
+Environment=TELEGRAM_BOT_TOKEN=8124805384:AAEr2uAubqKAkakfH9MZSJ8Uj1sSzccC36U
+Environment=PATH=/workspace/bot_env/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+ExecStart=/workspace/bot_env/bin/python /workspace/bot_daemon.py
+ExecReload=/bin/kill -HUP $MAINPID
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=leandro-bot
+
+# Security settings
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/workspace
+
+# Resource limits
+LimitNOFILE=65536
+LimitNPROC=4096
+
+[Install]
+WantedBy=multi-user.target
