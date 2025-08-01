@@ -29,3 +29,23 @@
 2025-08-01 00:56:23,210 - aiogram.dispatcher - INFO - Run polling for bot @Leandrocryptobot id=8124805384 - 'Leandro crypto'
 2025-08-01 00:57:13,574 - __main__ - INFO - ✅ Welcome sent to @user (ID: 6573507555)
 2025-08-01 00:57:13,575 - aiogram.event - INFO - Update id=163271746 is handled. Duration 618 ms by bot id=8124805384
+2025-08-01 00:57:35,242 - aiogram.event - INFO - Update id=163271747 is handled. Duration 554 ms by bot id=8124805384
+2025-08-01 00:57:36,860 - __main__ - INFO - Language set to pt for user 6573507555
+2025-08-01 00:57:36,860 - aiogram.event - INFO - Update id=163271748 is handled. Duration 567 ms by bot id=8124805384
+2025-08-01 00:57:38,687 - aiogram.event - INFO - Update id=163271749 is handled. Duration 566 ms by bot id=8124805384
+2025-08-01 00:57:45,692 - __main__ - INFO - VIP access shown to @user (ID: 6573507555)
+2025-08-01 00:57:45,692 - aiogram.event - INFO - Update id=163271750 is handled. Duration 554 ms by bot id=8124805384
+2025-08-01 00:57:47,770 - __main__ - ERROR - Message edit failed: Telegram server says - Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 930
+2025-08-01 00:57:47,929 - __main__ - ERROR - Fallback message failed: Telegram server says - Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 930
+2025-08-01 00:57:48,197 - __main__ - INFO - Package weekly selected by @None (ID: 6573507555)
+2025-08-01 00:57:48,197 - aiogram.event - INFO - Update id=163271751 is handled. Duration 585 ms by bot id=8124805384
+2025-08-01 00:57:49,811 - aiogram.event - INFO - Update id=163271752 is handled. Duration 597 ms by bot id=8124805384
+2025-08-01 00:57:52,754 - aiogram.event - INFO - Update id=163271753 is handled. Duration 555 ms by bot id=8124805384
+2025-08-01 00:57:54,235 - __main__ - INFO - Language set to en for user 6573507555
+2025-08-01 00:57:54,235 - aiogram.event - INFO - Update id=163271754 is handled. Duration 559 ms by bot id=8124805384
+2025-08-01 00:57:55,508 - aiogram.event - INFO - Update id=163271755 is handled. Duration 551 ms by bot id=8124805384
+2025-08-01 00:57:56,955 - __main__ - INFO - VIP access shown to @user (ID: 6573507555)
+2025-08-01 00:57:56,955 - aiogram.event - INFO - Update id=163271756 is handled. Duration 551 ms by bot id=8124805384
+2025-08-01 00:57:59,277 - aiogram.event - INFO - Update id=163271757 is handled. Duration 553 ms by bot id=8124805384
+2025-08-01 13:26:04,204 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-08-01 13:26:04,216 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8124805384)
